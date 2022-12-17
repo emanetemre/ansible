@@ -13,6 +13,3 @@ RUN dnf -y install sudo
 RUN sudo dnf install python3-pip -y
 RUN pip3 install --upgrade --ignore-installed pip setuptools
 RUN sudo python3 -m pip install ansible
-
-#Ansible Kurulumunu Check Edelim
-CMD ["ansible --version"]
